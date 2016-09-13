@@ -1,0 +1,142 @@
+/* your styles go here */
+
+
+  .portfolio .label {
+    position: absolute;
+    width: 100%;
+    height:40px;
+    bottom:-40px;
+    -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+    .portfolio .label-bg {
+      background: #e95a44;
+      width: 100%;
+      height:100%;
+      position: absolute;
+      top:0;
+      left:0;
+    }
+  
+    .portfolio .label-text {
+      color:#fff;
+      position: relative;
+      z-index:500;
+      padding:5px 8px;
+    }
+      
+      .portfolio .text-category {
+        display:block;
+        font-size:9px;
+      }
+  
+  .portfolio:hover .label {
+    bottom:0;
+  }
+
+
+
+
+
+/*CSS for mixitup*/
+#Container .mix{
+    display: none;
+}
+
+.box {
+/*  background:#FFEB3B;
+*/}
+
+#typed {
+  font-size: 48px;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  font-size:48px;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+button {
+  border: none;
+}
+
+.buttonfilter {
+  color: black;  
+  font-family: Arial;
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  padding:5px;
+  margin:30px 0 30px 0;
+  list-style:none;
+  float:left;
+}
+
+.buttonfilter:hover{
+  color: rgb(198, 66, 79);
+  margin:30px 0 30px 0;
+  list-style: none;
+  text-decoration: line-through;
+}
+
+li.buttonfilter.active{
+  color: rgb(198, 66, 79);
+  margin:30px 0 30px 0;
+  list-style: none;
+  text-decoration: line-through;
+}
+
+
+.buttons {
+  background: rgb(198, 66, 79);
+  color: white;  
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top:30px;
+  border: none;
+}
+
+.buttons:hover{
+  background: white;
+  color: rgb(198, 66, 79);
+  margin-top:30px;
+  border: 1px solid rgb(198, 66, 79);
+}
+
+.heading {
+  margin-top:40px;
+}
+
+@media (max-width: 600px) {
+  #typed {
+    font-size: 24px;
+  }
+  .typed-cursor {
+    font-size: 24px;
+  }
+}
