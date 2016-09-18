@@ -83,7 +83,7 @@ button {
   color: black;  
   font-family: Arial;
   color: #000;
-  font-size: 20px;
+  font-size: 32px;
   text-decoration: none;
   padding:5px;
   margin:30px 0 30px 0;
@@ -134,9 +134,20 @@ li.buttonfilter.active{
 
 @media (max-width: 600px) {
   #typed {
-    font-size: 24px;
+    font-size: 22px;
   }
   .typed-cursor {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .buttonfilter {
+    font-size:18px;
+  }
+
+  .buttons {
+    font-size: 14px;
+  }
+  div#buttonnav{
+    text-align:center;
   }
 }
