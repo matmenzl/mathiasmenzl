@@ -1423,6 +1423,10 @@ p.social a.whatsapp {
   background-color: #00e676;
   border-color: #00e676;
 }
+p.social a.medium {
+  background-color: #1c9963;
+  border-color: #1c9963;
+}
 p.social a.email {
   background-color: #4a7f45;
   border-color: #4a7f45;
@@ -1461,6 +1465,10 @@ p.social.social--outline a.spotify {
 p.social.social--outline a.whatsapp {
   color: #00e676;
   border-color: #00e676;
+}
+p.social.social--outline a.medium {
+  color: #1c9963;
+  border-color: #1c9963;
 }
 p.social.social--outline a.email {
   color: #4a7f45;
