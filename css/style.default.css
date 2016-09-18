@@ -108,6 +108,7 @@ button i.fa {
 }
 #map {
   height: 500px;
+  margin:0 20px 0 20px;
   border-top: solid 1px #eeeeee;
   border-bottom: solid 1px #eeeeee;
 }
