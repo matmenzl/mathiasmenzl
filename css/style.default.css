@@ -384,8 +384,8 @@ a:active {
   padding-bottom: 0;
 }
 .footer__copyright {
-  background: #282c37;
-  color: #ccc;
+  background: #fff;
+  color: #000;
   padding: 20px 0;
   font-size: 14px;
   line-height: 28px;
@@ -1410,6 +1410,18 @@ p.social a.instagram {
   background-color: #cd4378;
   border-color: #cd4378;
 }
+p.social a.linkedin {
+  background-color: #1b86bc;
+  border-color: #1b86bc;
+}
+p.social a.spotify {
+  background-color: #1db954;
+  border-color: #1db954;
+}
+p.social a.whatsapp {
+  background-color: #00e676;
+  border-color: #00e676;
+}
 p.social a.email {
   background-color: #4a7f45;
   border-color: #4a7f45;
@@ -1436,6 +1448,18 @@ p.social.social--outline a.twitter {
 p.social.social--outline a.instagram {
   color: #cd4378;
   border-color: #cd4378;
+}
+p.social.social--outline a.linkedin {
+  color: #1b86bc;
+  border-color: #1b86bc;
+}
+p.social.social--outline a.spotify {
+  color: #1db954;
+  border-color: #1db954;
+}
+p.social.social--outline a.whatsapp {
+  color: #00e676;
+  border-color: #00e676;
 }
 p.social.social--outline a.email {
   color: #4a7f45;

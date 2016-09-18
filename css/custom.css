@@ -132,6 +132,10 @@ li.buttonfilter.active{
   margin-top:40px;
 }
 
+.img-responsive {
+  display:inline-block !important;
+}
+
 @media (max-width: 600px) {
   #typed {
     font-size: 22px;
