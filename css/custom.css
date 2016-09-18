@@ -133,7 +133,7 @@ li.buttonfilter.active{
 }
 
 .img-responsive {
-  display:inline-block !important;
+  display:inline-block;
 }
 
 @media (max-width: 600px) {
